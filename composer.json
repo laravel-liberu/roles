@@ -1,33 +1,33 @@
 {
-    "name": "laravel-enso/roles",
+    "name": "cgdsoftware/roles",
     "description": "Role Manager dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "roles",
         "role-manager",
         "laravel-roles"
     ],
-    "homepage": "https://github.com/laravel-enso/Roles",
+    "homepage": "https://github.com/cgdsoftware/Roles",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/enums": "^2.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/menus": "^5.0",
-        "laravel-enso/permissions": "^5.0",
-        "laravel-enso/select": "^4.0",
-        "laravel-enso/migrator": "^2.0",
-        "laravel-enso/tables": "^4.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/enums": "^2.0",
+        "cgdsoftware/forms": "^4.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/menus": "^5.0",
+        "cgdsoftware/permissions": "^5.0",
+        "cgdsoftware/select": "^4.0",
+        "cgdsoftware/migrator": "^2.0",
+        "cgdsoftware/tables": "^4.0"
     },
     "autoload": {
         "psr-4": {
