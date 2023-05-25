@@ -19,15 +19,15 @@
         }
     ],
     "require": {
-        "laravel-liberu/core": "^8.0",
-        "laravel-liberu/enums": "^2.0",
-        "laravel-liberu/forms": "^4.0",
-        "laravel-liberu/helpers": "^2.0",
-        "laravel-liberu/menus": "^5.0",
-        "laravel-liberu/permissions": "^5.0",
-        "laravel-liberu/select": "^4.0",
-        "laravel-liberu/migrator": "^2.0",
-        "laravel-liberu/tables": "^4.0"
+        "laravel-liberu/core": "^8.0.9",
+        "laravel-liberu/enums": "^2.2.3",
+        "laravel-liberu/forms": "^4.5.1",
+        "laravel-liberu/helpers": "^2.9.2",
+        "laravel-liberu/menus": "^5.0.3",
+        "laravel-liberu/permissions": "^5.0.7",
+        "laravel-liberu/select": "^4.2.2",
+        "laravel-liberu/migrator": "^2.1.3",
+        "laravel-liberu/tables": "^4.15.0"
     },
     "autoload": {
         "psr-4": {
