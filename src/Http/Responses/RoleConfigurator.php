@@ -8,11 +8,8 @@ use LaravelEnso\Roles\Services\PermissionTree;
 
 class RoleConfigurator implements Responsable
 {
-    private $role;
-
-    public function __construct(Role $role)
+    public function __construct(private readonly Role $role)
     {
-        $this->role = $role;
     }
 
     public function toResponse($request)

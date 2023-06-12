@@ -9,7 +9,7 @@ use LaravelEnso\Permissions\Models\Permission;
 
 class PermissionTree
 {
-    private Obj $tree;
+    private readonly Obj $tree;
     private Obj $current;
 
     public function __construct()
@@ -35,7 +35,7 @@ class PermissionTree
 
     private function nodes($permission): void
     {
-        Collection::wrap(explode('.', $permission->name))->slice(0, -1)
+        Collection::wrap(explode('.', (string) $permission->name))->slice(0, -1)
             ->each(fn ($segment) => $this->node($segment));
     }
 

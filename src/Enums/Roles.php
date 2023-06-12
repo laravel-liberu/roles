@@ -6,6 +6,6 @@ use LaravelEnso\Enums\Services\Enum;
 
 class Roles extends Enum
 {
-    public const Admin = 1;
-    public const Supervisor = 2;
+    final public const Admin = 1;
+    final public const Supervisor = 2;
 }

@@ -11,7 +11,7 @@ use LaravelEnso\Roles\Models\Role;
 
 class ConfigWriter
 {
-    public function __construct(private Role $role)
+    public function __construct(private readonly Role $role)
     {
     }
 
