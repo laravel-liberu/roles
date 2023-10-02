@@ -9,11 +9,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('roles', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
-            $table->integer('menu_id')->unsigned()->nullable();
-            $table->foreign('menu_id')->references('id')
-                ->on('menus')->onDelete('set null');
+            $table->foreignId('menu_id')->nullable()->constrained()->onDelete('set null');
 
             $table->string('name')->unique();
             $table->string('display_name');
