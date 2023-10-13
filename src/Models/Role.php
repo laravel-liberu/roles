@@ -54,7 +54,7 @@ class Role extends Model
 
         return $query->when(! $isSuperior, fn ($query) => $query
             ->whereHas('userGroups', fn ($groups) => $groups->when(
-                Config::get('enso.roles.restrictedToOwnGroup'),
+                Config::get('liberu.roles.restrictedToOwnGroup'),
                 fn ($groups) => $groups->whereId(Auth::user()->group_id),
                 fn ($groups) => $groups->where('id', '<>', UserGroups::Admin),
             )));
@@ -112,7 +112,7 @@ class Role extends Model
 
     public static function permissionCacheKey(int $id): string
     {
-        $stub = Config::get('enso.roles.permissionKey');
+        $stub = Config::get('liberu.roles.permissionKey');
 
         return Str::of($stub)->replace('id', $id);
     }

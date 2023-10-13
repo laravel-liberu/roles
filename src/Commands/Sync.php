@@ -10,7 +10,7 @@ class Sync extends Command
 {
     private const Path = 'local/roles';
 
-    protected $signature = 'enso:roles:sync';
+    protected $signature = 'liberu:roles:sync';
 
     protected $description = 'Sync roles between dev and live environments';
 

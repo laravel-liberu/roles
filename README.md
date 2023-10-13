@@ -1,20 +1,20 @@
 # Roles
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a563369b562c492dbfcc9da2b4287eb0)](https://www.codacy.com/gh/laravel-enso/roles?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/roles&amp;utm_campaign=Badge_Grade) 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a563369b562c492dbfcc9da2b4287eb0)](https://www.codacy.com/gh/laravel-liberu/roles?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/roles&amp;utm_campaign=Badge_Grade) 
 [![StyleCI](https://github.styleci.io/repos/94814370/shield?branch=master)](https://github.styleci.io/repos/94814370)
-[![License](https://poser.pugx.org/laravel-enso/roles/license)](https://packagist.org/packages/laravel-enso/roles)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/roles/downloads)](https://packagist.org/packages/laravel-enso/roles)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/roles/version)](https://packagist.org/packages/laravel-enso/roles)
+[![License](https://poser.pugx.org/laravel-liberu/roles/license)](https://packagist.org/packages/laravel-liberu/roles)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/roles/downloads)](https://packagist.org/packages/laravel-liberu/roles)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/roles/version)](https://packagist.org/packages/laravel-liberu/roles)
 
-Role Manager dependency for [Laravel Liberu](https://github.com/laravel-enso/Liberu)
+Role Manager dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu)
 
-This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/roles/screenshots/bulma_021_thumb.png)](https://laravel-enso.github.io/roles/videos/bulma_demo_01.webm)
+[![Watch the demo](https://laravel-liberu.github.io/roles/screenshots/bulma_021_thumb.png)](https://laravel-liberu.github.io/roles/videos/bulma_demo_01.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
