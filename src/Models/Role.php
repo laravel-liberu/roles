@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Roles\Models;
+namespace LaravelLiberu\Roles\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -12,15 +12,15 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
-use LaravelEnso\Menus\Models\Menu;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\Roles\Exceptions\RoleConflict;
-use LaravelEnso\Roles\Services\ConfigWriter;
-use LaravelEnso\Tables\Traits\TableCache;
-use LaravelEnso\UserGroups\Enums\UserGroups;
-use LaravelEnso\UserGroups\Models\UserGroup;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Menus\Models\Menu;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Roles\Exceptions\RoleConflict;
+use LaravelLiberu\Roles\Services\ConfigWriter;
+use LaravelLiberu\Tables\Traits\TableCache;
+use LaravelLiberu\UserGroups\Enums\UserGroups;
+use LaravelLiberu\UserGroups\Models\UserGroup;
+use LaravelLiberu\Users\Models\User;
 
 class Role extends Model
 {

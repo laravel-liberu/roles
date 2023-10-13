@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Roles\Exceptions;
+namespace LaravelLiberu\Roles\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 
 class Role extends EnsoException
 {

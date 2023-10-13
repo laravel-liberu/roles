@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Roles;
+namespace LaravelLiberu\Roles;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Roles\Commands\Sync;
+use LaravelLiberu\Roles\Commands\Sync;
 
 class AppServiceProvider extends ServiceProvider
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Http\Requests;
+namespace LaravelLiberu\Roles\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use LaravelEnso\Menus\Models\Menu;
+use LaravelLiberu\Menus\Models\Menu;
 
 class ValidateRole extends FormRequest
 {

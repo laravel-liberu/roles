@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Http\Controllers;
+namespace LaravelLiberu\Roles\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Roles\Models\Role;
-use LaravelEnso\Select\Traits\OptionsBuilder;
+use LaravelLiberu\Roles\Models\Role;
+use LaravelLiberu\Select\Traits\OptionsBuilder;
 
 class Options extends Controller
 {

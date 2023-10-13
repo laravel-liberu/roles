@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Forms\Builders;
+namespace LaravelLiberu\Roles\Forms\Builders;
 
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\Menus\Models\Menu;
-use LaravelEnso\Roles\Models\Role as Model;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\Menus\Models\Menu;
+use LaravelLiberu\Roles\Models\Role as Model;
 
 class Role
 {

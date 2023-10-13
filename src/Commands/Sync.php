@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Commands;
+namespace LaravelLiberu\Roles\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Roles\Services\Sync as Service;
+use LaravelLiberu\Roles\Services\Sync as Service;
 
 class Sync extends Command
 {

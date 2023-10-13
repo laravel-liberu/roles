@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Roles\Http\Controllers\Permission;
+namespace LaravelLiberu\Roles\Http\Controllers\Permission;
 
-use LaravelEnso\Roles\Models\Role;
+use LaravelLiberu\Roles\Models\Role;
 
 class ConfigWriter
 {

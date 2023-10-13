@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Roles\Services;
+namespace LaravelLiberu\Roles\Services;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Obj;
-use LaravelEnso\Permissions\Http\Resources\Permission as Resource;
-use LaravelEnso\Permissions\Models\Permission;
+use LaravelLiberu\Helpers\Services\Obj;
+use LaravelLiberu\Permissions\Http\Resources\Permission as Resource;
+use LaravelLiberu\Permissions\Models\Permission;
 
 class PermissionTree
 {

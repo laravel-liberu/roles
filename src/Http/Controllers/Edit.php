@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Http\Controllers;
+namespace LaravelLiberu\Roles\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Roles\Forms\Builders\Role;
-use LaravelEnso\Roles\Models\Role as Model;
+use LaravelLiberu\Roles\Forms\Builders\Role;
+use LaravelLiberu\Roles\Models\Role as Model;
 
 class Edit extends Controller
 {

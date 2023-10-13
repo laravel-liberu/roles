@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Roles\Traits;
+namespace LaravelLiberu\Roles\Traits;
 
-use LaravelEnso\Roles\Models\Role;
+use LaravelLiberu\Roles\Models\Role;
 
 trait HasRoles
 {

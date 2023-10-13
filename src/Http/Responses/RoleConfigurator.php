@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Http\Responses;
+namespace LaravelLiberu\Roles\Http\Responses;
 
 use Illuminate\Contracts\Support\Responsable;
-use LaravelEnso\Roles\Models\Role;
-use LaravelEnso\Roles\Services\PermissionTree;
+use LaravelLiberu\Roles\Models\Role;
+use LaravelLiberu\Roles\Services\PermissionTree;
 
 class RoleConfigurator implements Responsable
 {

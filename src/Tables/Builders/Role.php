@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Tables\Builders;
+namespace LaravelLiberu\Roles\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\Roles\Models\Role as Model;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\Roles\Models\Role as Model;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class Role implements Table
 {

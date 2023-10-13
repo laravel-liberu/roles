@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Database\Factories;
+namespace LaravelLiberu\Roles\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\Menus\Models\Menu;
-use LaravelEnso\Roles\Models\Role;
+use LaravelLiberu\Menus\Models\Menu;
+use LaravelLiberu\Roles\Models\Role;
 
 class RoleFactory extends Factory
 {

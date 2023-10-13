@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Roles\Http\Controllers;
+namespace LaravelLiberu\Roles\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Roles\Http\Requests\ValidateRole;
-use LaravelEnso\Roles\Models\Role;
+use LaravelLiberu\Roles\Http\Requests\ValidateRole;
+use LaravelLiberu\Roles\Models\Role;
 
 class Store extends Controller
 {

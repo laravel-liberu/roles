@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Roles\Database\Seeders;
+namespace LaravelLiberu\Roles\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Collection;
-use LaravelEnso\Menus\Models\Menu;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Roles\Models\Role;
+use LaravelLiberu\Menus\Models\Menu;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Roles\Models\Role;
 
 class RoleSeeder extends Seeder
 {

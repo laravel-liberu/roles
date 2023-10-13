@@ -31,16 +31,16 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Roles\\": "src/",
-            "LaravelEnso\\Roles\\Database\\Factories\\": "database/factories/",
-            "LaravelEnso\\Roles\\Database\\Seeders\\": "database/seeders/"
+            "LaravelLiberu\\Roles\\": "src/",
+            "LaravelLiberu\\Roles\\Database\\Factories\\": "database/factories/",
+            "LaravelLiberu\\Roles\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Roles\\AppServiceProvider",
-                "LaravelEnso\\Roles\\EnumServiceProvider"
+                "LaravelLiberu\\Roles\\AppServiceProvider",
+                "LaravelLiberu\\Roles\\EnumServiceProvider"
             ],
             "aliases": {}
         }

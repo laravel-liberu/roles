@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Roles\Services;
+namespace LaravelLiberu\Roles\Services;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use LaravelEnso\Roles\Enums\Roles;
-use LaravelEnso\Roles\Exceptions\Role as Exception;
-use LaravelEnso\Roles\Models\Role;
+use LaravelLiberu\Roles\Enums\Roles;
+use LaravelLiberu\Roles\Exceptions\Role as Exception;
+use LaravelLiberu\Roles\Models\Role;
 
 class ConfigWriter
 {

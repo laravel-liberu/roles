@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Roles\Http\Controllers\Permission\ConfigWriter;
-use LaravelEnso\Roles\Http\Controllers\Permission\Index;
-use LaravelEnso\Roles\Http\Controllers\Permission\Update;
+use LaravelLiberu\Roles\Http\Controllers\Permission\ConfigWriter;
+use LaravelLiberu\Roles\Http\Controllers\Permission\Index;
+use LaravelLiberu\Roles\Http\Controllers\Permission\Update;
 
 Route::prefix('permissions')->as('permissions.')
     ->group(function () {

@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Roles\Http\Controllers\Create;
-use LaravelEnso\Roles\Http\Controllers\Destroy;
-use LaravelEnso\Roles\Http\Controllers\Edit;
-use LaravelEnso\Roles\Http\Controllers\ExportExcel;
-use LaravelEnso\Roles\Http\Controllers\InitTable;
-use LaravelEnso\Roles\Http\Controllers\Options;
-use LaravelEnso\Roles\Http\Controllers\Store;
-use LaravelEnso\Roles\Http\Controllers\TableData;
-use LaravelEnso\Roles\Http\Controllers\Update;
+use LaravelLiberu\Roles\Http\Controllers\Create;
+use LaravelLiberu\Roles\Http\Controllers\Destroy;
+use LaravelLiberu\Roles\Http\Controllers\Edit;
+use LaravelLiberu\Roles\Http\Controllers\ExportExcel;
+use LaravelLiberu\Roles\Http\Controllers\InitTable;
+use LaravelLiberu\Roles\Http\Controllers\Options;
+use LaravelLiberu\Roles\Http\Controllers\Store;
+use LaravelLiberu\Roles\Http\Controllers\TableData;
+use LaravelLiberu\Roles\Http\Controllers\Update;
 
 Route::get('create', Create::class)->name('create');
 Route::post('', Store::class)->name('store');

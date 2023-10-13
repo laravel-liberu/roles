@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Roles\Services;
+namespace LaravelLiberu\Roles\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use LaravelEnso\Menus\Models\Menu;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Roles\Models\Role;
+use LaravelLiberu\Menus\Models\Menu;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Roles\Models\Role;
 use Symfony\Component\Finder\SplFileInfo;
 
 class Sync

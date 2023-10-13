@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Roles;
+namespace LaravelLiberu\Roles;
 
-use LaravelEnso\Enums\EnumServiceProvider as ServiceProvider;
-use LaravelEnso\Roles\Enums\Roles;
+use LaravelLiberu\Enums\EnumServiceProvider as ServiceProvider;
+use LaravelLiberu\Roles\Enums\Roles;
 
 class EnumServiceProvider extends ServiceProvider
 {

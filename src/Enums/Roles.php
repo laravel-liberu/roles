@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Roles\Enums;
+namespace LaravelLiberu\Roles\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Roles extends Enum
 {
