@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Roles\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Role extends EnsoException
+class Role extends LiberuException
 {
     public static function adminRole()
     {
